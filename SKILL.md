@@ -1,17 +1,17 @@
 ---
 name: htmlpix-api
-description: "Use this skill when the user wants to call, test, or integrate the HTMLPix API. Covers auth, signed URL minting, image rendering, template CRUD, and AI template generation through these server-backed endpoints: POST /v1/url, POST /v1/urls, GET /v1/image, GET/POST/PATCH /v1/templates, POST /v1/templates/generate."
+description: "Use when the user wants to call, test, or integrate the HTMLPix HTML-to-image API — including auth setup, signed URL minting, image rendering, template CRUD, and AI template generation."
 ---
 
 # HTMLPix API Skill
 
-Use the API contracts below (verified from `server/server.ts` + `shared/validation.ts`) when generating code, curl commands, SDK wrappers, or troubleshooting responses.
+Use the API contracts below when generating code, curl commands, SDK wrappers, or troubleshooting responses.
 
 ## Base URL and Auth
 
-- API Base URL: `https://api.htmlpix.com`
+- API Base URL: [https://api.htmlpix.com](https://api.htmlpix.com)
 - Private endpoints require: `Authorization: Bearer <API_KEY>`
-- API key can be found at `https://htmlpix.com/api-keys`
+- API key can be found at [https://htmlpix.com/api-keys](https://htmlpix.com/api-keys)
 - Do not call private endpoints from browser client code; mint URLs on the backend.
 
 Auth/plan/quota failures map to:
