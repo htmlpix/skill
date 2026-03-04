@@ -1,6 +1,6 @@
 ---
 name: htmlpix-api
-description: Use this skill when the user wants to call, test, or integrate the HTMLPix API. Covers auth, signed URL minting, image rendering, template CRUD, and AI template generation through these server-backed endpoints: POST /v1/url, POST /v1/urls, GET /v1/image, GET/POST/PATCH /v1/templates, POST /v1/templates/generate.
+description: "Use this skill when the user wants to call, test, or integrate the HTMLPix API. Covers auth, signed URL minting, image rendering, template CRUD, and AI template generation through these server-backed endpoints: POST /v1/url, POST /v1/urls, GET /v1/image, GET/POST/PATCH /v1/templates, POST /v1/templates/generate."
 ---
 
 # HTMLPix API Skill
